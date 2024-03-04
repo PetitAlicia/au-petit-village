@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #151217;
+    height: 120px;
+    width: auto;
+}
+
+nav img {
+    height: 100px;
+    width: 100px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+.navigation a {
+    font-family: "Comfortaa", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.navigation a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #F9D0A3;
+    text-decoration: none;
+}
+

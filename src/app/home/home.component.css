@@ -1,0 +1,163 @@
+.presentation-entreprise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comfortaa", sans-serif;
+    text-align: left;
+    height: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produits h2 {
+    font-family: "Bubbleboddy Neue", sans-serif;
+    color: #151217;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.catalogue-produits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #DBDBDB;
+    box-shadow: 5px 5px 15px #DBDBDB;
+    height: auto;
+    width: 700px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catalogue-produits img {
+    height: 150px;
+    width: 150px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 8px;
+}
+
+.catalogue-produits table {
+    height: auto;
+    width: 700px;
+    border-collapse : collapse;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #DBDBDB;
+}
+
+.catalogue-produits th {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-collapse : collapse;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #DBDBDB;
+}
+
+#tableau-photo {
+    padding-left: 10px;
+}
+
+.catalogue-produits tr {
+    border-collapse : collapse;
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #DBDBDB;
+}
+
+.catalogue-produits td {
+    padding-right: 10px;
+}
+
+
+.catalogue-produits a {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.catalogue-produits a:link {
+    color: #151217;
+    text-decoration: none;
+}
+
+.catalogue-produits a:active {
+    color: #151217;
+    text-decoration: none;
+}
+
+.catalogue-produits a:visited {
+    color: #151217;
+    text-decoration: none;
+}
+
+.catalogue-produits a:hover {
+    color: #DA001E;
+    text-decoration: none;
+}
+
+.tri-recherche {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    height: auto;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+}
+
+.tri-recherche button {
+    background-color: #DA001E;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    font-family: "Comfortaa", sans-serif;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.tri-recherche input {
+    background-color: white;
+    color: #969696;
+    border-style: solid;
+    border-color: #DBDBDB;
+    border-radius: 8px;
+    font-family: "Comfortaa", sans-serif;
+    width: 168px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

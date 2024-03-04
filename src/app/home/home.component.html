@@ -1,0 +1,54 @@
+<main class="main">
+        <app-header></app-header>
+
+        <img src="assets/village-asterix-obelix.png" alt="Une image des célèbres villageois Gaulois" class="image-fond">
+        <h1 class="titres">Au Petit Village</h1>
+        <p class="sous-titres">Des figurines faites main, inspirées des célèbres Gaulois !</p>
+        <hr class="ligne">
+
+        <section class="presentation-entreprise">
+            <p>Une courte présentation de l'entreprise. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim.</p>
+        </section>
+
+        <section class="produits" id="produits">
+            <h2>Nos produits</h2>
+            <div class="catalogue-produits">
+                <div class="tri-recherche">
+                    <button (click)="sortByPrice()">
+                        Trier par prix croissant
+                    </button>
+                    <button (click)="sortByPriceDescending()">
+                        Trier par prix décroissant
+                    </button>
+                    <form>
+                        <input type="text" id="input" placeholder="Rechercher..." #filter>
+                        <button type="button" (click)="filterByName(filter.value)">Rechercher</button>
+                    </form>
+                </div>
+                    <div>
+                        <table id="table">
+                            <thead>
+                                <tr>
+                                    <th id="tableau-photo">Photo du produit</th>
+                                    <th>Nom du produit</th>
+                                    <th>Prix</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let product of product">
+                                    <td><a routerLink="{{product.link}}"><img src="{{product.image}}" alt="Une photo du produit vendu"></a></td>
+                                    <td><a routerLink="{{product.link}}">{{product.name}}</a></td>
+                                    <td>{{product.price}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+        </section>
+
+        <app-footer></app-footer>
+</main>

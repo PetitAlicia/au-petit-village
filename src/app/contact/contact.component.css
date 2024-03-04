@@ -1,0 +1,111 @@
+#nous-contacter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: "Comfortaa", sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #DBDBDB;
+    box-shadow: 5px 5px 15px #DBDBDB;
+    height: auto;
+    width: 1000px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#contact h2 {
+    font-family: "Bubbleboddy Neue", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border-color: #FDD90B;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+#formulaire {
+    height: auto;
+    width: 450px;
+}
+
+#formulaire button {
+    background-color: #DA001E;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    font-family: "Comfortaa", sans-serif;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 41.7%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#formulaire input {
+    background-color: white;
+    color: #969696;
+    border-style: solid;
+    border-color: #DBDBDB;
+    border-radius: 8px;
+    font-family: "Comfortaa", sans-serif;
+    width: 430px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#formulaire textarea {
+    background-color: white;
+    color: #969696;
+    border-style: solid;
+    border-color: #DBDBDB;
+    border-radius: 8px;
+    font-family: "Comfortaa", sans-serif;
+    min-width: 430px;
+    max-width: 430px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#coordonnees {
+    height: auto;
+    width: 450px;
+}
+
+#coordonnees h3 {
+    font-family: "Bubbleboddy Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#coordonnees address {
+    font-style: normal;
+}

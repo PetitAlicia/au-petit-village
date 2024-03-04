@@ -1,0 +1,52 @@
+h2 {
+    font-family: "Bubbleboddy Neue", sans-serif;
+}
+
+p {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.page-produit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: auto;
+    width: 1000px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #DBDBDB;
+    box-shadow: 5px 5px 15px #DBDBDB;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.page-produit img {
+    padding-left: 15px;
+}
+
+.infos-produit {
+    padding-right: 15px;
+}
+
+.page-produit button {
+    background-color: #DA001E;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    font-family: "Comfortaa", sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
